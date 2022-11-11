@@ -19,3 +19,6 @@ on:
 
              - name: 'Testing printing'
                 run: echo ahmed
+                                       
+             - name: 'Testing folders contents'
+                run: ls                       
