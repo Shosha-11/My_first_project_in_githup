@@ -5,14 +5,14 @@ on:
 
 
 
-     jobs:
-       build:
-             runs-on: ubuntu-latest
+jobs:
+      build:
+        runs-on: ubuntu-latest
            
 
 
 
-           steps: 
+        steps: 
              - name: 'Testing Githup action' 
 
                 run : pwd
