@@ -2,7 +2,7 @@
     on:
       push:
          branches:
-            -test1
+            - test1
 
 
 
