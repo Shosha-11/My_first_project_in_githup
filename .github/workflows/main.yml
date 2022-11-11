@@ -1,23 +1,22 @@
+ 
+    on:
+      push:
+         branches:
+            -test1
 
-on:
-   push:
-    branches:
-     -test1
 
 
-
-jobs:
-  build:
+    jobs:
+      build:
          runs-on: ubuntu-latest
            
 
 
 
-         steps:   
-           - name: 'Testing Githup action'
-            
-                 run : pwd
+        steps: 
+          - name: 'Testing Githup action' 
 
-           - name: 'Testing printing'
+           run : pwd
 
-                 run: echo Ahmed
+               - name: 'Testing printing'
+                run: echo ahmed
