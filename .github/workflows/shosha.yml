@@ -1,24 +1,23 @@
-on:
+ on:
       push:
          branches:
             - test1
 
 
 
-jobs:
+ jobs:
       build:
-        runs-on: ubuntu-latest
+          runs-on: ubuntu-latest
            
 
 
+ 
+          steps: 
+                             - name: 'Testing Githup action' 
 
-        steps: 
-             - name: 'Testing Githup action' 
+                               run : pwd
 
-                run : pwd
-
-             - name: 'Testing printing'
-                run: echo ahmed
-                                       
-             - name: 'Testing folders contents'
-                run: ls                       
+                             - name: 'Testing printing'
+                               run: echo ahmed        
+                             - name: 'Testing printing'
+                               run: ls
