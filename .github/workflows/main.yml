@@ -13,7 +13,7 @@ jobs:
 
 
 
-           steps: 
+         steps:   
            - name: 'Testing Githup action'
             
              run : pwd
