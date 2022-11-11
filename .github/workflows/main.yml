@@ -6,8 +6,8 @@
 
 
 
- jobs:
-   build:
+jobs:
+  build:
          runs-on: ubuntu-latest
            
 
@@ -18,5 +18,5 @@
 
               run : pwd
 
-            - name: 'Testing printing'
+          - name: 'Testing printing'
                 run: echo ahmed
