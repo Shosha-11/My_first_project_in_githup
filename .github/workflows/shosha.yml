@@ -5,23 +5,17 @@ on:
 
 
 
-    jobs:
-      build:
-          runs-on: ubuntu-latest
+     jobs:
+       build:
+             runs-on: ubuntu-latest
            
 
 
- 
-          steps: 
 
-                             - name: 'Testing Githup action' 
+           steps: 
+             - name: 'Testing Githup action' 
 
-                               run : pwd
+                run : pwd
 
-                             - name: 'Testing printing'
-
-                               run: echo ahmed
-                           
-                             - name: 'Printing folder contents'
-
-                               run: ls  
+             - name: 'Testing printing'
+                run: echo ahmed
