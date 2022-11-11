@@ -11,8 +11,9 @@ jobs:
                                - name: 'Testing Githup action' 
                                  run: pwd
                                - name: 'Testing printing'  
+                         
                                            
-permissions : echo ahmed
+
                                 
                                                                    
                               
