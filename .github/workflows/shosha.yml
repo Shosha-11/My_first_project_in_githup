@@ -19,5 +19,9 @@
 
                              - name: 'Testing printing'
                                run: echo ahmed        
-                             - name: 'Testing printing'
-                               run: ls
+                             - name: 'Before'
+                               run: ls                 
+                             - uses: actions/checkout@v3
+                             - name: 'After'
+                               run: ls  
+                              
