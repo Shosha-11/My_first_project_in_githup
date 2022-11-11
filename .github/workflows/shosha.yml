@@ -25,5 +25,5 @@
                              - name: 'After'
                                run: ls                 
                              - name: 'Login to docker hup'
-                               run: docker login --username ${{secrets.SHOSHA}} --password ${{secrets.SHOSHA_TOKEN}}
+                               run: docker login --username ashosha110 --password dckr_pat_DAJ2R4SMP37Kbi3TYitffk8I32w
                               
