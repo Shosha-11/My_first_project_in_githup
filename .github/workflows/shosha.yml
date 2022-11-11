@@ -5,19 +5,13 @@
          branches:
             - test1
 
+                      jobs:
+                              build:
+                                 runs-on: ubuntu-latest
+                                   steps: 
+                                   - name: 'Testing Githup action' 
 
+                                        run: pwd
 
-     jobs:
-       build:
-             runs-on: ubuntu-latest
-           
-
-
-
-           steps: 
-             - name: 'Testing Githup action' 
-
-                run : pwd
-
-             - name: 'Testing printing'
-                run: echo ahmed
+                                           - name: 'Testing printing'
+                                                      run: echo ahmed
