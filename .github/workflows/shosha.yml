@@ -26,4 +26,9 @@
                                run: ls                 
                              - name: 'Login to docker hup'
                                run: docker login --username ${{secrets.USER}} --password ${{secrets.PASS}}
+                             - name: 'Building docker image'
+                               run: docker build -t ${{secrets.USER}}/myimage .
+                             - name: 'Pushing to Docker hup'
+                               run: docker push ${{secrets.USER}}/myimage
+                               
                               
